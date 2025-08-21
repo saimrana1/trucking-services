@@ -5,11 +5,12 @@ import image2 from "../../src/assets/image2.png";
 import image3 from "../../src/assets/image3.png";
 import image5 from "../../src/assets/image5.png";
 import TruckingFooter from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const ModernGallerySection = ({ showFooter = true }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
-
+  const navigate = useNavigate();
   // Your actual images - replace these URLs with your images
   const galleryImages = [
     {
@@ -152,7 +153,10 @@ const ModernGallerySection = ({ showFooter = true }) => {
 
           {/* View All Gallery Button */}
           <div className="text-center">
-            <button className="group inline-flex items-center gap-3 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <button
+              onClick={() => navigate("/gallery")}
+              className="group inline-flex items-center gap-3 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            >
               View Complete Gallery
               <ArrowRight
                 size={20}

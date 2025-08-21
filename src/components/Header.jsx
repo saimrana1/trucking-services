@@ -56,7 +56,6 @@ const ProfessionalHeader = () => {
     <div className="w-full relative">
       {/* Top Header Bar */}
       <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 text-white py-3 relative overflow-hidden">
-        {/* Animated background */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-10 transform -skew-x-12 animate-pulse"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -82,13 +81,37 @@ const ProfessionalHeader = () => {
             {/* Contact & Social */}
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
               <div className="flex items-center space-x-4 text-sm">
+                {/* Phone Number 1: Call and WhatsApp */}
                 <div className="flex items-center space-x-2 bg-orange-600 bg-opacity-20 px-3 py-1 rounded-full">
                   <Phone className="w-4 h-4 text-orange-400" />
-                  <span className="text-orange-400 font-bold">0507300655</span>
+                  <a
+                    href="tel:+966507300655"
+                    className="text-orange-400 font-bold hover:underline"
+                  >
+                    0507300655
+                  </a>
+                  <a
+                    href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="text-green-400 font-bold hover:underline"
+                  >
+                    <MessageCircle className="w-4 h-4 inline-block" />
+                  </a>
                 </div>
+                {/* Phone Number 2: Call and WhatsApp */}
                 <div className="flex items-center space-x-2 bg-blue-600 bg-opacity-20 px-3 py-1 rounded-full">
                   <Phone className="w-4 h-4 text-blue-400" />
-                  <span className="text-blue-400 font-bold">0556602997</span>
+                  <a
+                    href="tel:+966556602997"
+                    className="text-blue-400 font-bold hover:underline"
+                  >
+                    0556602997
+                  </a>
+                  <a
+                    href="https://wa.me/966556602997?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="text-green-400 font-bold hover:underline"
+                  >
+                    <MessageCircle className="w-4 h-4 inline-block" />
+                  </a>
                 </div>
               </div>
 
@@ -101,7 +124,7 @@ const ProfessionalHeader = () => {
                   <Facebook className="w-4 h-4" />
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                   className="w-8 h-8 bg-green-600 hover:bg-green-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                 >
                   <MessageCircle className="w-4 h-4" />
@@ -200,13 +223,22 @@ const ProfessionalHeader = () => {
                 </div>
               </div>
 
-              <a
-                href="tel:0507300655"
-                className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
-              >
-                <Phone className="w-4 h-4 mr-2 animate-pulse" />
-                Emergency Call
-              </a>
+              <div className="flex items-center space-x-2">
+                <a
+                  href="tel:+966507300655"
+                  className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
+                >
+                  <Phone className="w-4 h-4 mr-2 animate-pulse" />
+                  Emergency Call
+                </a>
+                <a
+                  href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                  className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
+                >
+                  <MessageCircle className="w-4 h-4 mr-2" />
+                  WhatsApp
+                </a>
+              </div>
             </div>
 
             {/* Mobile menu button */}
@@ -258,20 +290,38 @@ const ProfessionalHeader = () => {
 
               {/* Mobile Emergency Buttons */}
               <div className="pt-4 space-y-3 border-t border-gray-200">
-                <a
-                  href="tel:0507300655"
-                  className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call: 0507300655
-                </a>
-                <a
-                  href="tel:0556602997"
-                  className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Alt: 0556602997
-                </a>
+                <div className="flex items-center space-x-2">
+                  <a
+                    href="tel:+966507300655"
+                    className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Call: 0507300655
+                  </a>
+                  <a
+                    href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-green-600 to-green-700 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
+                  >
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    WhatsApp
+                  </a>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <a
+                    href="tel:+966556602997"
+                    className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Alt: 0556602997
+                  </a>
+                  <a
+                    href="https://wa.me/966556602997?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-green-600 to-green-700 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
+                  >
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    WhatsApp
+                  </a>
+                </div>
               </div>
 
               {/* Mobile Service Areas */}
