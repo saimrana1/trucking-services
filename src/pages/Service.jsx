@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
 
-const ModernTowingServices = () => {
+const ModernTowingServices = ({ showFooter = true }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeCard, setActiveCard] = useState(null);
   const sectionRef = useRef(null);
@@ -339,7 +339,7 @@ const ModernTowingServices = () => {
           }
         `}</style>
       </div>
-      <TruckingFooter />
+      {showFooter && <TruckingFooter />}{" "}
     </>
   );
 };

@@ -12,8 +12,9 @@ import {
   Zap,
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
+import Layout from "../layout";
 
-const ModernSathaTowingAbout = () => {
+const ModernSathaTowingAbout = ({ showFooter = true }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeFeature, setActiveFeature] = useState(0);
   const sectionRef = useRef(null);
@@ -310,7 +311,7 @@ const ModernSathaTowingAbout = () => {
           </svg>
         </div>
       </div>
-      <TruckingFooter />
+      {showFooter && <TruckingFooter />}{" "}
     </>
   );
 };

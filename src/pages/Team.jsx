@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
 
-const ExpertTeamSection = () => {
+const ExpertTeamSection = ({ showFooter = true }) => {
   const [animatedCards, setAnimatedCards] = useState([]);
 
   // Team members data with placeholder avatars
@@ -445,7 +445,7 @@ const ExpertTeamSection = () => {
           }
         `}</style>
       </section>
-      <TruckingFooter />
+      {showFooter && <TruckingFooter />}{" "}
     </>
   );
 };

@@ -6,7 +6,7 @@ import image3 from "../../src/assets/image3.png";
 import image5 from "../../src/assets/image5.png";
 import TruckingFooter from "../components/Footer";
 
-const ModernGallerySection = () => {
+const ModernGallerySection = ({ showFooter = true }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -240,7 +240,7 @@ const ModernGallerySection = () => {
           </div>
         )}
       </section>
-      <TruckingFooter />
+      {showFooter && <TruckingFooter />}{" "}
     </>
   );
 };

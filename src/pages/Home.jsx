@@ -244,11 +244,11 @@ const TowingHeroCarousel = () => {
           />
         </div>
       </div>
-      <ModernSathaTowingAbout />
-      <ModernTowingServices />
-      <ModernGallerySection />
-      <ExpertTeamSection />
-      <ContactPage />
+      <ModernSathaTowingAbout showFooter={false} />
+      <ModernTowingServices showFooter={false} />
+      <ModernGallerySection showFooter={false} />
+      <ExpertTeamSection showFooter={false} />
+      <ContactPage showFooter={false} />
       <TruckingFooter />
     </>
   );

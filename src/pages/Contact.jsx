@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
 
-export default function ContactPage() {
+export default function ContactPage({ showFooter = true }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -295,7 +295,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
-      <TruckingFooter />
+      {showFooter && <TruckingFooter />}{" "}
     </>
   );
 }
