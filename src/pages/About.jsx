@@ -156,11 +156,11 @@ const ModernSathaTowingAbout = ({ showFooter = true }) => {
                     just call:
                   </p>
                   <a
-                    href="tel:0507300655"
+                    href="tel:0507962866"
                     className="inline-flex items-center text-2xl font-bold text-orange-400 hover:text-orange-300 transition-colors"
                   >
                     <Phone className="w-6 h-6 mr-3" />
-                    0507300655
+                    0507962866
                     <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" />
                   </a>
                   <p className="text-orange-200 mt-2">
@@ -202,18 +202,18 @@ const ModernSathaTowingAbout = ({ showFooter = true }) => {
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:0507300655"
+                  href="tel:0507962866"
                   className="group inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
                 >
                   <Phone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
-                  Call Now: 0507300655
+                  Call Now: 0507962866
                 </a>
                 <a
-                  href="tel:0556602997"
+                  href="tel:0507962866"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 border-2 border-gray-300 font-semibold rounded-xl hover:border-orange-400 hover:text-orange-600 transition-all duration-300"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Alt: 0556602997
+                  Alt: 0507962866
                 </a>
               </div>
             </div>

@@ -170,7 +170,7 @@ export default function TruckingFooter() {
               <div className="flex items-center">
                 <Phone className="h-4 w-4 text-green-400 mr-2" />
                 <div>
-                  <p className="text-white font-medium">+966 50 123 4567</p>
+                  <p className="text-white font-medium">0507962866</p>
                   <p className="text-gray-400 text-xs">خدمة العملاء</p>
                 </div>
               </div>
@@ -259,7 +259,7 @@ export default function TruckingFooter() {
               <div className="flex items-center justify-center lg:justify-end">
                 <Phone className="h-5 w-5 text-red-400 mr-2" />
                 <span className="text-xl font-bold text-red-400">
-                  +966 50 999 8888
+                  0507962866
                 </span>
               </div>
             </div>

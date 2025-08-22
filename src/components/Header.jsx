@@ -85,13 +85,13 @@ const ProfessionalHeader = () => {
                 <div className="flex items-center space-x-2 bg-orange-600 bg-opacity-20 px-3 py-1 rounded-full">
                   <Phone className="w-4 h-4 text-orange-400" />
                   <a
-                    href="tel:+966507300655"
+                    href="tel:0507962866"
                     className="text-orange-400 font-bold hover:underline"
                   >
-                    0507300655
+                    0507962866
                   </a>
                   <a
-                    href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="text-green-400 font-bold hover:underline"
                   >
                     <MessageCircle className="w-4 h-4 inline-block" />
@@ -101,13 +101,13 @@ const ProfessionalHeader = () => {
                 <div className="flex items-center space-x-2 bg-blue-600 bg-opacity-20 px-3 py-1 rounded-full">
                   <Phone className="w-4 h-4 text-blue-400" />
                   <a
-                    href="tel:+966556602997"
+                    href="tel:0507962866"
                     className="text-blue-400 font-bold hover:underline"
                   >
-                    0556602997
+                    0507962866
                   </a>
                   <a
-                    href="https://wa.me/966556602997?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="text-green-400 font-bold hover:underline"
                   >
                     <MessageCircle className="w-4 h-4 inline-block" />
@@ -124,7 +124,7 @@ const ProfessionalHeader = () => {
                   <Facebook className="w-4 h-4" />
                 </a>
                 <a
-                  href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                  href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                   className="w-8 h-8 bg-green-600 hover:bg-green-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                 >
                   <MessageCircle className="w-4 h-4" />
@@ -225,14 +225,14 @@ const ProfessionalHeader = () => {
 
               <div className="flex items-center space-x-2">
                 <a
-                  href="tel:+966507300655"
+                  href="tel:0507962866"
                   className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
                 >
                   <Phone className="w-4 h-4 mr-2 animate-pulse" />
                   Emergency Call
                 </a>
                 <a
-                  href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                  href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                   className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
@@ -296,10 +296,10 @@ const ProfessionalHeader = () => {
                     className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Call: 0507300655
+                    Call: 0507962866
                   </a>
                   <a
-                    href="https://wa.me/966507300655?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-green-600 to-green-700 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
@@ -312,10 +312,10 @@ const ProfessionalHeader = () => {
                     className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-2" />
-                    Alt: 0556602997
+                    Alt: 0507962866
                   </a>
                   <a
-                    href="https://wa.me/966556602997?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="flex items-center justify-center w-full py-3 bg-gradient-to-r from-green-600 to-green-700 text-white font-bold rounded-xl shadow-lg transition-all duration-300"
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />

@@ -22,7 +22,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       name: "Ijaz Saeed",
       position: "Lead Towing Specialist",
       experience: "8+ Years Experience",
-      phone: "0556602997",
+      phone: "0507962866",
       email: "ijaz@towingservice.com",
       specialties: [
         "Heavy Duty Towing",
@@ -40,7 +40,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       name: "Naeem Jutt",
       position: "Senior Transport Operator",
       experience: "6+ Years Experience",
-      phone: "0556602997",
+      phone: "0507962866",
       email: "naeem@towingservice.com",
       specialties: [
         "Car Transport",
@@ -58,7 +58,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       name: "Ahmed Khan",
       position: "Emergency Response Expert",
       experience: "5+ Years Experience",
-      phone: "0556602997",
+      phone: "0507962866",
       email: "ahmed@towingservice.com",
       specialties: ["24/7 Emergency", "Accident Recovery", "Quick Response"],
       avatar: "https://via.placeholder.com/200x200/10B981/FFFFFF?text=AK",
@@ -72,7 +72,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       name: "Hassan Ali",
       position: "Fleet Coordinator",
       experience: "7+ Years Experience",
-      phone: "0556602997",
+      phone: "0507962866",
       email: "hassan@towingservice.com",
       specialties: ["Fleet Management", "Route Planning", "Customer Service"],
       avatar: "https://via.placeholder.com/200x200/F59E0B/FFFFFF?text=HA",
@@ -335,10 +335,10 @@ const ExpertTeamSection = ({ showFooter = true }) => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="tel:0556602997"
+                    href="tel:0507962866"
                     className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:rotate-2 shadow-xl animate-pulse"
                   >
-                    📞 Call Now: 0556602997
+                    📞 Call Now: 0507962866
                   </a>
                   <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-red-600 transition-all duration-300 transform hover:scale-110 hover:-rotate-2 shadow-lg">
                     Get Free Quote ✨
