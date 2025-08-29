@@ -235,7 +235,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
                     {/* Action Button */}
                     <div className="flex items-center justify-between">
                       <a
-                        href="tel:0507300655"
+                        href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                         className={`inline-flex items-center px-6 py-3 bg-gradient-to-r ${service.color} text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group-hover:animate-pulse`}
                       >
                         <Phone className="w-4 h-4 mr-2" />
@@ -286,7 +286,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
-                    href="tel:0507962866"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
                   >
                     <Phone className="w-5 h-5 mr-3 group-hover:animate-pulse" />
@@ -295,7 +295,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
                   </a>
 
                   <a
-                    href="tel:0507962866"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-xl hover:bg-white hover:text-gray-900 transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-3" />

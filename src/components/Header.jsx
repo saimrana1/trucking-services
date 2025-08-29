@@ -118,7 +118,7 @@ const ProfessionalHeader = () => {
               {/* Social Media */}
               <div className="flex items-center space-x-3">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/1C9vU6394x/"
                   className="w-8 h-8 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
                 >
                   <Facebook className="w-4 h-4" />
@@ -169,7 +169,7 @@ const ProfessionalHeader = () => {
                 <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                   SATHA TOWING
                 </div>
-                <div className="text-xs text-gray-600 font-medium">
+                <div className="text-xs text-gray-600 font-medium mb-2">
                   مؤسسة طرق المتحدة للخدمات
                 </div>
               </div>
@@ -206,31 +206,23 @@ const ProfessionalHeader = () => {
             </div>
 
             {/* Service Areas & Emergency Call */}
-            <div className="hidden xl:flex items-center space-x-4">
+            <div className="hidden xl:flex items-center space-x-4 ml-2">
               <div className="bg-gradient-to-r from-orange-50 to-red-50 border-2 border-orange-200 rounded-2xl px-6 py-3 shadow-lg">
-                <div className="text-xs text-orange-800 font-bold mb-1">
-                  <span className="flex items-center">
-                    <Shield className="w-3 h-3 mr-1" />
-                    Service Areas:{" "}
-                    <span className="text-orange-600 mr-1">
-                      (داخلي و خارجي)
-                    </span>
+                <div className="text-[11px] leading-tight text-orange-800 font-bold mb-0 ">
+                  <span className="flex items-center space-x-1">
+                    <Shield className="w-3 h-3" />
+                    <span>Service Areas:</span>
+                    <span className="text-orange-600">(داخلي و خارجي)</span>
                     <Star className="w-3 h-3 text-yellow-500" />
                   </span>
                 </div>
-                <div className="text-xs text-gray-700 font-medium">
+
+                <div className="text-[11px] leading-tight text-gray-700 font-medium">
                   القريات • طريف • عرعر • خرابطين • جليل • ربعجانة
                 </div>
               </div>
 
               <div className="flex items-center space-x-2">
-                <a
-                  href="tel:0507962866"
-                  className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"
-                >
-                  <Phone className="w-4 h-4 mr-2 animate-pulse" />
-                  Emergency Call
-                </a>
                 <a
                   href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                   className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center"

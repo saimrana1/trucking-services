@@ -149,7 +149,7 @@ export default function ContactPage({ showFooter = true }) {
                   خدمة الطوارئ
                 </h3>
                 <p className="mb-3">متاح 24/7 لحالات الطوارئ</p>
-                <p className="text-2xl font-bold">+966 50 999 8888</p>
+                <p className="text-2xl font-bold">0507962866</p>
               </div>
             </div>
 

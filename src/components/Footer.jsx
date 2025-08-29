@@ -227,7 +227,7 @@ export default function TruckingFooter() {
               </h4>
               <div className="flex space-x-4 rtl:space-x-reverse">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/1C9vU6394x/"
                   className="bg-blue-600 hover:bg-blue-700 p-3 rounded-xl transition-colors duration-200"
                 >
                   <Facebook className="h-5 w-5 text-white" />

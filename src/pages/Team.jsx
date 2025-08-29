@@ -11,6 +11,10 @@ import {
   CheckCircle,
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
+import driver1 from "../../src/assets/driver1.png";
+import driver2 from "../../src/assets/driver2.png";
+import driver3 from "../../src/assets/driver3.png";
+import driver4 from "../../src/assets/driver4.png";
 
 const ExpertTeamSection = ({ showFooter = true }) => {
   const [animatedCards, setAnimatedCards] = useState([]);
@@ -29,7 +33,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
         "Emergency Response",
         "Fleet Management",
       ],
-      avatar: "https://via.placeholder.com/200x200/3B82F6/FFFFFF?text=IS",
+      avatar: driver1,
       rating: 4.9,
       completedJobs: 1200,
       certifications: ["ASE Certified", "DOT Certified"],
@@ -47,7 +51,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
         "Roadside Assistance",
         "Equipment Operation",
       ],
-      avatar: "https://via.placeholder.com/200x200/EF4444/FFFFFF?text=NJ",
+      avatar: driver2,
       rating: 4.8,
       completedJobs: 950,
       certifications: ["CDL Licensed", "Safety Certified"],
@@ -61,7 +65,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       phone: "0507962866",
       email: "ahmed@towingservice.com",
       specialties: ["24/7 Emergency", "Accident Recovery", "Quick Response"],
-      avatar: "https://via.placeholder.com/200x200/10B981/FFFFFF?text=AK",
+      avatar: driver3,
       rating: 4.9,
       completedJobs: 800,
       certifications: ["Emergency Response", "First Aid Certified"],
@@ -75,7 +79,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       phone: "0507962866",
       email: "hassan@towingservice.com",
       specialties: ["Fleet Management", "Route Planning", "Customer Service"],
-      avatar: "https://via.placeholder.com/200x200/F59E0B/FFFFFF?text=HA",
+      avatar: driver4,
       rating: 4.7,
       completedJobs: 1100,
       certifications: ["Fleet Management", "Logistics Certified"],
@@ -299,7 +303,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
                   {/* Contact Buttons with Enhanced Animation */}
                   <div className="space-y-3">
                     <a
-                      href={`tel:${member.phone}`}
+                      href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                       className="w-full bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-4 py-3 rounded-xl font-semibold text-sm transition-all duration-300 transform hover:scale-110 hover:rotate-1 flex items-center justify-center gap-2 shadow-lg hover:shadow-2xl animate-pulse"
                     >
                       <Phone size={16} className="animate-bounce" />
@@ -335,7 +339,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="tel:0507962866"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-110 hover:rotate-2 shadow-xl animate-pulse"
                   >
                     📞 Call Now: 0507962866

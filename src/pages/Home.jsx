@@ -91,11 +91,11 @@ const TowingHeroCarousel = () => {
         ))}
 
         {/* Content Overlay */}
-        <div className="relative z-10 flex h-full items-center">
+        <div className="relative z-10 flex h-full items-center pt-60 sm:pt-0">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               {/* Left Content */}
-              <div className="text-white space-y-6">
+              <div className="text-white space-y-6 text-center lg:text-left">
                 <div className="space-y-4">
                   <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                     {slides[currentSlide].title}
