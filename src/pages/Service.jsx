@@ -122,7 +122,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
     <>
       <div
         ref={sectionRef}
-        className="relative bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20 overflow-hidden"
+        className="relative bg-gradient-to-br from-gray-50 via-white to-gray-100 py-20 overflow-hidden pt-30 sm:pt-0"
       >
         {/* Background Elements */}
         <div className="absolute inset-0">

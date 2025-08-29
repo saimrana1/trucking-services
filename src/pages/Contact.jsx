@@ -48,7 +48,7 @@ export default function ContactPage({ showFooter = true }) {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-30 sm:pt-0">
         {/* Header Section */}
         <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

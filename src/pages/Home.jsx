@@ -159,43 +159,47 @@ const TowingHeroCarousel = () => {
               </div>
 
               {/* Right Content - Service Card */}
-              <div className="lg:justify-self-end">
-                <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-8 border border-white border-opacity-20 shadow-2xl max-w-md">
+              <div className="w-full lg:justify-self-end">
+                <div className="w-full max-w-md mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 shadow-2xl">
                   <div className="text-center space-y-6">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500 rounded-full">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500 rounded-full mx-auto">
                       <Truck className="w-8 h-8 text-white" />
                     </div>
 
                     <div>
-                      <h3 className="text-2xl font-bold text-white mb-2">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">
                         سطحة الدمام
                       </h3>
-                      <p className="text-orange-400 font-semibold">
+                      <p className="text-orange-400 font-semibold text-sm sm:text-base">
                         Dammam Towing Service
                       </p>
                     </div>
 
                     <div className="space-y-3">
-                      <div className="flex items-center text-white">
+                      <div className="flex items-center justify-center sm:justify-start text-white">
                         <MapPin className="w-5 h-5 text-orange-400 mr-3" />
-                        <span>Dammam, Saudi Arabia</span>
+                        <span className="text-sm sm:text-base">
+                          Dammam, Saudi Arabia
+                        </span>
                       </div>
-                      <div className="flex items-center text-white">
+                      <div className="flex items-center justify-center sm:justify-start text-white">
                         <Star className="w-5 h-5 text-orange-400 mr-3" />
-                        <span>5.0 Rating • Trusted Service</span>
+                        <span className="text-sm sm:text-base">
+                          5.0 Rating • Trusted Service
+                        </span>
                       </div>
                     </div>
 
                     <div className="pt-4 space-y-3">
                       <a
                         href="tel:0507300655"
-                        className="block w-full py-3 px-6 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300"
+                        className="block w-full py-3 px-6 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 text-sm sm:text-base"
                       >
                         0507300655
                       </a>
                       <a
                         href="tel:0556602997"
-                        className="block w-full py-3 px-6 bg-transparent border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-semibold rounded-lg transition-all duration-300"
+                        className="block w-full py-3 px-6 bg-transparent border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-semibold rounded-lg transition-all duration-300 text-sm sm:text-base"
                       >
                         0556602997
                       </a>
@@ -244,7 +248,7 @@ const TowingHeroCarousel = () => {
           />
         </div>
       </div>
-      <ModernSathaTowingAbout showFooter={false} />
+      <ModernSathaTowingAbout showFooter={false} className="mt-20 sm:mt-0" />
       <ModernTowingServices showFooter={false} />
       <ModernGallerySection showFooter={false} />
       <ExpertTeamSection showFooter={false} />

@@ -69,7 +69,7 @@ const ModernGallerySection = ({ showFooter = true }) => {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 overflow-hidden pt-30 sm:pt-0">
         <div className="max-w-7xl mx-auto px-4">
           {/* Section Header */}
           <div className="text-center mb-16">

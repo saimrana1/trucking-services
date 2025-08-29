@@ -82,7 +82,7 @@ const ModernSathaTowingAbout = ({ showFooter = true }) => {
     <>
       <div
         ref={sectionRef}
-        className="relative bg-gradient-to-br from-gray-50 to-white py-20 overflow-hidden"
+        className="relative bg-gradient-to-br from-gray-50 to-white py-20 overflow-hidden "
         id="about"
       >
         {/* Background Elements */}
