@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { ArrowRight, Play, Eye, ArrowLeft } from "lucide-react";
-import image11 from "../../src/assets/image11.png";
-import image2 from "../../src/assets/image2.png";
-import image3 from "../../src/assets/image3.png";
-import image5 from "../../src/assets/image5.png";
+import truck1 from "../../src/assets/truck1.png";
+import truck2 from "../../src/assets/truck2.png";
+import truck3 from "../../src/assets/truck3.png";
+import truck4 from "../../src/assets/truck4.png";
+import image6 from "../../src/assets/image6.png";
 import TruckingFooter from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
@@ -15,28 +16,35 @@ const ModernGallerySection = ({ showFooter = true }) => {
   const galleryImages = [
     {
       id: 1,
-      src: image11,
+      src: truck1,
       alt: "Professional Towing Service",
       title: "Heavy Duty Transport",
       description: "Professional heavy-duty vehicle transportation",
     },
     {
       id: 2,
-      src: image2,
+      src: truck2,
       alt: "Car Transport on Flatbed",
       title: "Secure Car Transport",
       description: "Safe and secure vehicle transportation services",
     },
     {
       id: 3,
-      src: image3,
+      src: truck3,
       alt: "Emergency Towing Service",
       title: "Emergency Response",
       description: "24/7 emergency towing and roadside assistance",
     },
     {
       id: 4,
-      src: image5,
+      src: truck4,
+      alt: "Luxury Car Transport",
+      title: "Luxury Vehicle Care",
+      description: "Specialized transport for luxury and sports cars",
+    },
+    {
+      id: 5,
+      src: image6,
       alt: "Luxury Car Transport",
       title: "Luxury Vehicle Care",
       description: "Specialized transport for luxury and sports cars",
@@ -224,7 +232,7 @@ const ModernGallerySection = ({ showFooter = true }) => {
               </div>
 
               {/* Image Counter Dots */}
-              <div className="flex justify-center mt-6 gap-2">
+              <div className="flex justify-center mt-2 gap-2">
                 {galleryImages.map((_, index) => (
                   <button
                     key={index}

@@ -118,7 +118,7 @@ const TowingHeroCarousel = () => {
                     Call Now: 0507962866
                   </a>
                   <a
-                    href="tel:0556602997"
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                     className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-2" />
@@ -192,16 +192,16 @@ const TowingHeroCarousel = () => {
 
                     <div className="pt-4 space-y-3">
                       <a
-                        href="tel:0507300655"
+                        href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                         className="block w-full py-3 px-6 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 text-sm sm:text-base"
                       >
-                        0507300655
+                        0507962866
                       </a>
                       <a
-                        href="tel:0556602997"
+                        href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
                         className="block w-full py-3 px-6 bg-transparent border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white font-semibold rounded-lg transition-all duration-300 text-sm sm:text-base"
                       >
-                        0556602997
+                        0507962866
                       </a>
                     </div>
                   </div>

@@ -14,6 +14,7 @@ import {
   Truck,
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "../../src/assets/Logo.png";
 
 const ProfessionalHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ const ProfessionalHeader = () => {
     { id: "home", name: "HOME", href: "/" },
     { id: "about", name: "ABOUT", href: "/about" },
     { id: "services", name: "SERVICES", href: "/services" },
-    { id: "gallery", name: "GALLERY", href: "/gallery" },
+    { id: "gallery", name: "GALLERY", href: "/gallery-photo" },
     { id: "contact", name: "CONTACT", href: "/contact" },
   ];
 
@@ -160,9 +161,12 @@ const ProfessionalHeader = () => {
             {/* Logo */}
             <div className="flex items-center group">
               <div className="relative">
-                <div className="w-14 h-14 bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 rounded-xl flex items-center justify-center shadow-xl group-hover:shadow-2xl transition-all duration-300 transform group-hover:scale-105">
-                  <Truck className="w-7 h-7 text-white" />
-                </div>
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="w-12 h-12 object-contain"
+                />
+
                 <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
               </div>
               <div className="ml-4">

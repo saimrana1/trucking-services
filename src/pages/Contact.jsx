@@ -84,25 +84,26 @@ export default function ContactPage({ showFooter = true }) {
                       <p className="font-semibold text-gray-800">
                         خدمة العملاء
                       </p>
-                      <p className="text-blue-600 font-medium">
-                        +966 50 123 4567
-                      </p>
+                      <p className="text-blue-600 font-medium">0507962866</p>
                     </div>
                   </div>
                   <div className="flex items-center p-4 bg-green-50 rounded-xl">
                     <MessageCircle className="h-5 w-5 text-green-600 mr-3 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-800">واتساب</p>
-                      <p className="text-green-600 font-medium">
-                        +966 55 987 6543
-                      </p>
+                      <a
+                        href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                        className="text-green-600 font-medium"
+                      >
+                        0507962866
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Office Information */}
-              <div className="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
+              {/* <div className="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
                 <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
                   <MapPin className="h-6 w-6 text-red-600 mr-3" />
                   معلومات المكتب
@@ -140,7 +141,7 @@ export default function ContactPage({ showFooter = true }) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Emergency Contact */}
               <div className="bg-gradient-to-r from-red-500 to-red-600 text-white rounded-2xl shadow-xl p-6">

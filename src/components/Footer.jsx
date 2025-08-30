@@ -170,14 +170,24 @@ export default function TruckingFooter() {
               <div className="flex items-center">
                 <Phone className="h-4 w-4 text-green-400 mr-2" />
                 <div>
-                  <p className="text-white font-medium">0507962866</p>
+                  <a
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="text-white font-medium"
+                  >
+                    0507962866
+                  </a>
                   <p className="text-gray-400 text-xs">خدمة العملاء</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <MessageCircle className="h-4 w-4 text-green-400 mr-2" />
                 <div>
-                  <p className="text-white font-medium">+966 55 987 6543</p>
+                  <a
+                    href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
+                    className="text-white font-medium"
+                  >
+                    0507962866
+                  </a>
                   <p className="text-gray-400 text-xs">واتساب</p>
                 </div>
               </div>

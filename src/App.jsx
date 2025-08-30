@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/gallery" element={<TowingGallery />} />
         <Route path="/team" element={<ExpertTeamSection />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/gallery-photo" element={<TowingGallery />} />
       </Routes>
     </Router>
   );
