@@ -9,6 +9,7 @@ import {
   MessageCircle,
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
+import logo5 from "../../src/assets/logo5.png";
 
 export default function ContactPage({ showFooter = true }) {
   const [formData, setFormData] = useState({
@@ -54,7 +55,12 @@ export default function ContactPage({ showFooter = true }) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <Truck className="h-12 w-12 text-blue-200" />
+                {/* <Truck className="h-12 w-12 text-blue-200" /> */}
+                <img
+                  src={logo5}
+                  alt="Logo"
+                  className="w-16 h-16 object-contain"
+                />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 تواصل معنا
@@ -101,47 +107,6 @@ export default function ContactPage({ showFooter = true }) {
                   </div>
                 </div>
               </div>
-
-              {/* Office Information */}
-              {/* <div className="bg-white rounded-2xl shadow-xl p-6 border border-gray-100">
-                <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
-                  <MapPin className="h-6 w-6 text-red-600 mr-3" />
-                  معلومات المكتب
-                </h3>
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <MapPin className="h-5 w-5 text-red-600 mt-1 mr-3 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-gray-800">العنوان</p>
-                      <p className="text-gray-600">
-                        شارع الملك فهد، الرياض
-                        <br />
-                        المملكة العربية السعودية
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Mail className="h-5 w-5 text-blue-600 mt-1 mr-3 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-gray-800">
-                        البريد الإلكتروني
-                      </p>
-                      <p className="text-blue-600">info@truckingsa.com</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <Clock className="h-5 w-5 text-green-600 mt-1 mr-3 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-gray-800">ساعات العمل</p>
-                      <p className="text-gray-600">
-                        الأحد - الخميس: 8:00 - 18:00
-                        <br />
-                        الجمعة - السبت: 9:00 - 15:00
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
 
               {/* Emergency Contact */}
               <div className="bg-gradient-to-r from-red-500 to-red-600 text-white rounded-2xl shadow-xl p-6">
@@ -283,14 +248,14 @@ export default function ContactPage({ showFooter = true }) {
               </h3>
               <div className="bg-gray-200 rounded-xl h-96 flex items-center justify-center">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.025837904662!2d39.16527901533403!3d21.54333398571215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d9a72a3f8e1d%3A0x2d47c6e7f2a7c2b4!2sJeddah%2C%20Saudi%20Arabia!5e0!3m2!1sen!2ssa!4v1692510444454!5m2!1sen!2ssa"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3477.8945823930987!2d50.0493058!3d26.4406958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssa!4v1692510444454!5m2!1sen!2ssa"
                   width="100%"
                   height="100%"
                   style={{ border: 0, borderRadius: "12px" }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                />
               </div>
             </div>
           </div>

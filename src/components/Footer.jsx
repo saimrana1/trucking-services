@@ -14,6 +14,7 @@ import {
   Users,
   ArrowUp,
 } from "lucide-react";
+import logo5 from "../../src/assets/logo5.png";
 
 export default function TruckingFooter() {
   const scrollToTop = () => {
@@ -27,8 +28,13 @@ export default function TruckingFooter() {
         {/* Company Logo and Description */}
         <div className="text-center mb-8">
           <div className="flex justify-center items-center mb-4">
-            <div className="bg-blue-600 p-3 rounded-xl mr-3">
-              <Truck className="h-8 w-8 text-white" />
+            <div className="p-3 rounded-xl mr-3">
+              {/* <Truck className="h-8 w-8 text-white" /> */}
+              <img
+                src={logo5}
+                alt="Logo"
+                className="w-16 h-16 object-contain"
+              />
             </div>
             <div>
               <h3 className="text-2xl font-bold">شركة النقل السعودية</h3>

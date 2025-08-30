@@ -106,7 +106,7 @@ const ModernSathaTowingAbout = ({ showFooter = true }) => {
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Welcome to{" "}
-              <span className="text-orange-500">Satha Towing Service</span>
+              <span className="text-orange-500">Al-Dammam Towing Service</span>
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-400 to-red-500 mx-auto rounded-full"></div>
           </div>
@@ -126,7 +126,7 @@ const ModernSathaTowingAbout = ({ showFooter = true }) => {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   We have been providing{" "}
                   <span className="font-semibold text-orange-600">
-                    "Satha Car Towing Service near me"
+                    "Al-Dammam Car Towing Service near me"
                   </span>{" "}
                   for a long time in Dammam. Whether you face an emergency
                   vehicle malfunction or need towing services, we're here to

@@ -14,7 +14,7 @@ import {
   Truck,
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../src/assets/Logo.png";
+import logo2 from "../../src/assets/logo2.png";
 
 const ProfessionalHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,7 +68,7 @@ const ProfessionalHeader = () => {
                   <MapPin className="w-3 h-3" />
                 </div>
                 <span className="text-gray-300">
-                  Al Khidaryah, Dammam-32435, Saudi Arabia
+                  C3R4+RQV, Al-Khidaryah, Dammam 32435, Saudi Arabia
                 </span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
@@ -162,19 +162,19 @@ const ProfessionalHeader = () => {
             <div className="flex items-center group">
               <div className="relative">
                 <img
-                  src={logo}
+                  src={logo2}
                   alt="Logo"
-                  className="w-12 h-12 object-contain"
+                  className="w-16 h-16 object-contain"
                 />
 
-                <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse"></div>
+                {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-500 rounded-full border-2 border-white animate-pulse"></div> */}
               </div>
               <div className="ml-4">
                 <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                  SATHA TOWING
+                  Al-Dammam Towing
                 </div>
                 <div className="text-xs text-gray-600 font-medium mb-2">
-                  مؤسسة طرق المتحدة للخدمات
+                  مؤسسة الدمام لخدمات السحب
                 </div>
               </div>
             </div>

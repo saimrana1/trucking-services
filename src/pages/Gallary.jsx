@@ -45,7 +45,7 @@ const ModernGallerySection = ({ showFooter = true }) => {
     {
       id: 5,
       src: image6,
-      alt: "Luxury Car Transport",
+      alt: "Premium Vehicle Transport",
       title: "Luxury Vehicle Care",
       description: "Specialized transport for luxury and sports cars",
     },

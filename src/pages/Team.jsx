@@ -23,7 +23,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
   const teamMembers = [
     {
       id: 1,
-      name: "Ijaz Saeed",
+      name: "جبران  افضل",
       position: "Lead Towing Specialist",
       experience: "8+ Years Experience",
       phone: "0507962866",
@@ -41,7 +41,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
     },
     {
       id: 2,
-      name: "Naeem Jutt",
+      name: "شبیر احمد",
       position: "Senior Transport Operator",
       experience: "6+ Years Experience",
       phone: "0507962866",
@@ -59,7 +59,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
     },
     {
       id: 3,
-      name: "Ahmed Khan",
+      name: "نعیم صدیقی",
       position: "Emergency Response Expert",
       experience: "5+ Years Experience",
       phone: "0507962866",
@@ -73,7 +73,7 @@ const ExpertTeamSection = ({ showFooter = true }) => {
     },
     {
       id: 4,
-      name: "Hassan Ali",
+      name: "بشارت دیو",
       position: "Fleet Coordinator",
       experience: "7+ Years Experience",
       phone: "0507962866",

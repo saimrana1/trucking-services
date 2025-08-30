@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
+import logo5 from "../../src/assets/logo5.png";
 
 const ModernTowingServices = ({ showFooter = true }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,10 +44,10 @@ const ModernTowingServices = ({ showFooter = true }) => {
 
   const services = [
     {
-      icon: Truck,
+      icon: logo5,
       title: "The Best Towing Service",
       description:
-        "If you are looking for best, lowest rate and professional car towing service, towing service, towing a tow truck, car towing service near me.",
+        "If you are looking for best, lowest rate and professional car towing service, car towing service near me.",
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
@@ -72,7 +73,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
       icon: Shield,
       title: "Reliable Towing Service",
       description:
-        "We offer fast and reliable response to emergency rehabilitation in Satha Dammam.",
+        "We offer fast and reliable response to emergency rehabilitation in Al-Dammam . Contact with us",
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
@@ -80,10 +81,10 @@ const ModernTowingServices = ({ showFooter = true }) => {
       delay: "400ms",
     },
     {
-      icon: Car,
+      icon: logo5,
       title: "Vehicle Towing Service",
       description:
-        "We can tow or transport any vehicle, we have the necessary equipment and expertise to pull all types of cars and motorcycles, 4×4 cars, trucks and buses and pickup towing a tow truck.",
+        "We can tow or transport any vehicle, we have the necessary equipment and expertise to pull all types of cars and motorcycles, 4×4 cars,Vehicle Towing Service trucks and buses and pickup towing a tow truck. please contact with us any time.",
       color: "from-purple-500 to-purple-600",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200",
@@ -109,7 +110,7 @@ const ModernTowingServices = ({ showFooter = true }) => {
       icon: Cog,
       title: "Machinery Transportation",
       description:
-        "With a massive fleet of towing a tow trucks ranging from 1 tonne to 2.5 tonnes, heavy haulage towing a tow trucks, spread decks and mega lifts we can transport anything up to 2.5 tonnes. Please contact us: 0507300655",
+        "With a massive fleet of towing a tow trucks. heavy haulage towing a tow trucks, spread decks and mega lifts we can transport anything up to 2.5 tonnes. Please contact us: 0507300655",
       color: "from-indigo-500 to-indigo-600",
       bgColor: "bg-indigo-50",
       borderColor: "border-indigo-200",
@@ -167,7 +168,6 @@ const ModernTowingServices = ({ showFooter = true }) => {
           {/* Services Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => {
-              const IconComponent = service.icon;
               return (
                 <div
                   key={index}
@@ -197,7 +197,15 @@ const ModernTowingServices = ({ showFooter = true }) => {
                     <div
                       className={`w-16 h-16 bg-gradient-to-br ${service.color} rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 transform group-hover:scale-110 group-hover:rotate-3`}
                     >
-                      <IconComponent className="w-8 h-8 text-white" />
+                      {typeof service.icon === "string" ? (
+                        <img
+                          src={service.icon}
+                          alt={service.title}
+                          className="w-8 h-8 object-contain"
+                        />
+                      ) : (
+                        <service.icon className="w-8 h-8 text-white" />
+                      )}
                     </div>
                     <div className="absolute -top-1 -right-1 w-6 h-6 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg transform scale-0 group-hover:scale-100 transition-transform duration-300">
                       <CheckCircle className="w-4 h-4 text-white" />

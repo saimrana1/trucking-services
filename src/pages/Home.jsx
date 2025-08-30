@@ -18,6 +18,7 @@ import image2 from "../../src/assets/image2.png";
 import image1 from "../../src/assets/image1.png";
 import ContactPage from "./Contact";
 import TruckingFooter from "../components/Footer";
+import logo5 from "../../src/assets/logo5.png";
 
 const TowingHeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -162,8 +163,13 @@ const TowingHeroCarousel = () => {
               <div className="w-full lg:justify-self-end">
                 <div className="w-full max-w-md mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 shadow-2xl">
                   <div className="text-center space-y-6">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-500 rounded-full mx-auto">
-                      <Truck className="w-8 h-8 text-white" />
+                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mx-auto">
+                      {/* <Truck className=" text-white" /> */}
+                      <img
+                        src={logo5}
+                        alt="Logo"
+                        className="w-16 h-16 object-contain"
+                      />
                     </div>
 
                     <div>

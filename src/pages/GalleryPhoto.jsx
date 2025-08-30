@@ -90,8 +90,8 @@ const Gallery = ({ showFooter = true }) => {
     {
       id: 4,
       src: truck4,
-      alt: "Luxury Car Transport",
-      title: "Luxury Vehicle Care",
+      alt: "Premium Vehicle Transport",
+      title: "Premium Vehicle Transport",
       description: "Specialized transport for luxury and exotic vehicles",
       category: "Luxury",
     },
