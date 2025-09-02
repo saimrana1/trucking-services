@@ -11,9 +11,9 @@ import {
   CheckCircle,
 } from "lucide-react";
 import TruckingFooter from "../components/Footer";
-import driver1 from "../../src/assets/driver1.png";
-import driver2 from "../../src/assets/driver2.png";
-import driver3 from "../../src/assets/driver3.png";
+import avatar from "../../src/assets/avatar.png";
+import avatar2 from "../../src/assets/avatar2.png";
+import avatar3 from "../../src/assets/avatar3.png";
 import driver4 from "../../src/assets/driver4.png";
 
 const ExpertTeamSection = ({ showFooter = true }) => {
@@ -23,56 +23,6 @@ const ExpertTeamSection = ({ showFooter = true }) => {
   const teamMembers = [
     {
       id: 1,
-      name: "جبران  افضل",
-      position: "Lead Towing Specialist",
-      experience: "8+ Years Experience",
-      phone: "0507962866",
-      email: "ijaz@towingservice.com",
-      specialties: [
-        "Heavy Duty Towing",
-        "Emergency Response",
-        "Fleet Management",
-      ],
-      avatar: driver1,
-      rating: 4.9,
-      completedJobs: 1200,
-      certifications: ["ASE Certified", "DOT Certified"],
-      bgColor: "from-blue-500 to-purple-600",
-    },
-    {
-      id: 2,
-      name: "شبیر احمد",
-      position: "Senior Transport Operator",
-      experience: "6+ Years Experience",
-      phone: "0507962866",
-      email: "naeem@towingservice.com",
-      specialties: [
-        "Car Transport",
-        "Roadside Assistance",
-        "Equipment Operation",
-      ],
-      avatar: driver2,
-      rating: 4.8,
-      completedJobs: 950,
-      certifications: ["CDL Licensed", "Safety Certified"],
-      bgColor: "from-red-500 to-pink-600",
-    },
-    {
-      id: 3,
-      name: "نعیم صدیقی",
-      position: "Emergency Response Expert",
-      experience: "5+ Years Experience",
-      phone: "0507962866",
-      email: "ahmed@towingservice.com",
-      specialties: ["24/7 Emergency", "Accident Recovery", "Quick Response"],
-      avatar: driver3,
-      rating: 4.9,
-      completedJobs: 800,
-      certifications: ["Emergency Response", "First Aid Certified"],
-      bgColor: "from-green-500 to-teal-600",
-    },
-    {
-      id: 4,
       name: "بشارت دیو",
       position: "Fleet Coordinator",
       experience: "7+ Years Experience",
@@ -84,6 +34,56 @@ const ExpertTeamSection = ({ showFooter = true }) => {
       completedJobs: 1100,
       certifications: ["Fleet Management", "Logistics Certified"],
       bgColor: "from-yellow-500 to-orange-600",
+    },
+    {
+      id: 2,
+      name: "جبران  افضل",
+      position: "Lead Towing Specialist",
+      experience: "8+ Years Experience",
+      phone: "0507962866",
+      email: "ijaz@towingservice.com",
+      specialties: [
+        "Heavy Duty Towing",
+        "Emergency Response",
+        "Fleet Management",
+      ],
+      avatar: avatar,
+      rating: 4.9,
+      completedJobs: 1200,
+      certifications: ["ASE Certified", "DOT Certified"],
+      bgColor: "from-blue-500 to-purple-600",
+    },
+    {
+      id: 3,
+      name: "شبیر احمد",
+      position: "Senior Transport Operator",
+      experience: "6+ Years Experience",
+      phone: "0507962866",
+      email: "naeem@towingservice.com",
+      specialties: [
+        "Car Transport",
+        "Roadside Assistance",
+        "Equipment Operation",
+      ],
+      avatar: avatar2,
+      rating: 4.8,
+      completedJobs: 950,
+      certifications: ["CDL Licensed", "Safety Certified"],
+      bgColor: "from-red-500 to-pink-600",
+    },
+    {
+      id: 4,
+      name: "نعیم صدیقی",
+      position: "Emergency Response Expert",
+      experience: "5+ Years Experience",
+      phone: "0507962866",
+      email: "ahmed@towingservice.com",
+      specialties: ["24/7 Emergency", "Accident Recovery", "Quick Response"],
+      avatar: avatar3,
+      rating: 4.9,
+      completedJobs: 800,
+      certifications: ["Emergency Response", "First Aid Certified"],
+      bgColor: "from-green-500 to-teal-600",
     },
   ];
 

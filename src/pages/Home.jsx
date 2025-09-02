@@ -74,7 +74,7 @@ const TowingHeroCarousel = () => {
 
   return (
     <>
-      <div className="relative h-screen overflow-hidden bg-gray-900 ">
+      <div className="relative min-h-screen overflow-hidden bg-gray-900">
         {/* Background Images */}
         {slides.map((slide, index) => (
           <div
@@ -92,11 +92,11 @@ const TowingHeroCarousel = () => {
         ))}
 
         {/* Content Overlay */}
-        <div className="relative z-10 flex h-full items-center pt-60 sm:pt-0">
+        <div className="relative z-10 flex items-center min-h-screen py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div className="flex flex-col lg:flex-row gap-8 items-center">
               {/* Left Content */}
-              <div className="text-white space-y-6 text-center lg:text-left">
+              <div className="text-white space-y-6 text-center lg:text-left lg:w-1/2">
                 <div className="space-y-4">
                   <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                     {slides[currentSlide].title}
@@ -104,23 +104,23 @@ const TowingHeroCarousel = () => {
                   <h2 className="text-xl sm:text-2xl lg:text-3xl text-orange-400 font-semibold">
                     {slides[currentSlide].subtitle}
                   </h2>
-                  <p className="text-lg text-gray-300 max-w-xl">
+                  <p className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0">
                     {slides[currentSlide].description}
                   </p>
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                   <a
                     href="tel:0507962866"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     <Phone className="w-5 h-5 mr-2" />
                     Call Now: 0507962866
                   </a>
                   <a
                     href="https://wa.me/0507962866?text=Hello%2C%20I%27m%20contacting%20you%20regarding%20towing%20services"
-                    className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg transition-all duration-300"
+                    className="inline-flex items-center justify-center px-6 py-3 sm:px-8 sm:py-4 bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg transition-all duration-300"
                   >
                     <Phone className="w-5 h-5 mr-2" />
                     Alt: 0507962866
@@ -129,27 +129,27 @@ const TowingHeroCarousel = () => {
 
                 {/* Features */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6">
-                  <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                      <Clock className="w-5 h-5 text-white" />
+                  <div className="flex items-center space-x-3 justify-center lg:justify-start">
+                    <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                      <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold">24/7 Service</p>
                       <p className="text-xs text-gray-400">Always Available</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                      <Truck className="w-5 h-5 text-white" />
+                  <div className="flex items-center space-x-3 justify-center lg:justify-start">
+                    <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                      <Truck className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold">Fast Response</p>
                       <p className="text-xs text-gray-400">Quick Arrival</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="flex-shrink-0 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
-                      <Shield className="w-5 h-5 text-white" />
+                  <div className="flex items-center space-x-3 justify-center lg:justify-start">
+                    <div className="flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                      <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold">Licensed</p>
@@ -160,11 +160,10 @@ const TowingHeroCarousel = () => {
               </div>
 
               {/* Right Content - Service Card */}
-              <div className="w-full lg:justify-self-end">
-                <div className="w-full max-w-md mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 shadow-2xl">
+              <div className="w-full max-w-md mx-auto lg:mx-0 lg:w-1/2 lg:flex lg:justify-end">
+                <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-6 sm:p-8 border border-white border-opacity-20 shadow-2xl">
                   <div className="text-center space-y-6">
                     <div className="inline-flex items-center justify-center w-16 h-16 rounded-full mx-auto">
-                      {/* <Truck className=" text-white" /> */}
                       <img
                         src={logo5}
                         alt="Logo"
@@ -182,13 +181,13 @@ const TowingHeroCarousel = () => {
                     </div>
 
                     <div className="space-y-3">
-                      <div className="flex items-center justify-center sm:justify-start text-white">
+                      <div className="flex items-center justify-center text-white">
                         <MapPin className="w-5 h-5 text-orange-400 mr-3" />
                         <span className="text-sm sm:text-base">
                           Dammam, Saudi Arabia
                         </span>
                       </div>
-                      <div className="flex items-center justify-center sm:justify-start text-white">
+                      <div className="flex items-center justify-center text-white">
                         <Star className="w-5 h-5 text-orange-400 mr-3" />
                         <span className="text-sm sm:text-base">
                           5.0 Rating • Trusted Service
@@ -217,16 +216,16 @@ const TowingHeroCarousel = () => {
           </div>
         </div>
 
-        {/* Navigation Arrows */}
+        {/* Navigation Arrows - Hidden on mobile */}
         <button
           onClick={goToPrevious}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-black bg-opacity-30 hover:bg-opacity-50 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110"
+          className="hidden sm:flex absolute left-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-black bg-opacity-30 hover:bg-opacity-50 rounded-full items-center justify-center text-white transition-all duration-300 hover:scale-110"
         >
           <ChevronLeft className="w-6 h-6" />
         </button>
         <button
           onClick={goToNext}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-black bg-opacity-30 hover:bg-opacity-50 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110"
+          className="hidden sm:flex absolute right-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-black bg-opacity-30 hover:bg-opacity-50 rounded-full items-center justify-center text-white transition-all duration-300 hover:scale-110"
         >
           <ChevronRight className="w-6 h-6" />
         </button>
@@ -254,7 +253,7 @@ const TowingHeroCarousel = () => {
           />
         </div>
       </div>
-      <ModernSathaTowingAbout showFooter={false} className="mt-20 sm:mt-0" />
+      <ModernSathaTowingAbout showFooter={false} />
       <ModernTowingServices showFooter={false} />
       <ModernGallerySection showFooter={false} />
       <ExpertTeamSection showFooter={false} />
