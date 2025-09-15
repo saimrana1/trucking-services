@@ -171,7 +171,7 @@ const ProfessionalHeader = () => {
               </div>
               <div className="ml-4">
                 <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                  Al-Dammam Towing
+                  Satha – Al-Dammam Towing Services
                 </div>
                 <div className="text-xs text-gray-600 font-medium mb-2">
                   مؤسسة الدمام لخدمات السحب
