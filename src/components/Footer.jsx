@@ -199,7 +199,7 @@ export default function TruckingFooter() {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 text-blue-400 mr-2" />
-                <p className="text-white font-medium">info@truckingsa.com</p>
+                <p className="text-white font-medium">basharat2018basharat@gmail.com</p>
               </div>
               <div className="flex items-start">
                 <Clock className="h-4 w-4 text-yellow-400 mt-1 mr-2" />
